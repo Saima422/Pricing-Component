@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  // margin: 0;
+  background-color: rgba(133, 137, 228, 0.5);
+
+  & > h1{
+    padding: 10px;
+    margin: 0px 0 10px 0;
+    // border: 2px solid black;
+    padding: 30px;
+    color: white;
+    font-size: 3rem;
+  }
+  
+}
+
+.PricingContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .PricingCard:nth-child(2){
+    z-index:10;
+  }
+}
+
+.PricingCard {
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0px 0px 5px 0px rgb(206, 203, 203);
+  margin: 50px -5px;
+
+  h3{
+    font-size: 1rem;
+    margin: 40px 0 20px 0;
+  }
+
+  h1{
+    font-size: 3.2rem;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+
+  li{
+    list-style: none;
+    padding: 20px 0;
+    margin: 0 40px 0 0;
+    border-top: 1px solid rgb(228, 225, 225)
+  }
+
+  li:last-child{
+    border-bottom: 1px solid rgb(228, 225, 225);
+  }
+
+  button{
+    background: white;
+    color: #9A9DEE;
+    border: none;
+    width: 85%;
+    height: 40px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin: 15px;
+  }
+}
+
+.react-tabs__tab-list {
+  border-bottom: none;
+}
+
+.react-tabs__tab {
+  margin: 0 5px;
+  width: 100px;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.react-tabs__tab--selected{
+  border: none;
+  border-radius: 10px;
+  background: #9A9DEE;
+}

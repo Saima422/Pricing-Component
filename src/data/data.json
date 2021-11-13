@@ -1,0 +1,36 @@
+{
+  "Annually": {
+    "Basic": {
+      "value": "Basic",
+      "Price": "$199.99",
+      "Benefits": ["500 GB Storage", "2 Users Allowed", "Send up to 3 GB"]
+    },
+    "Professional": {
+      "value": "Professional",
+      "Price": "$249.99",
+      "Benefits": ["1 TB Storage", "5 Users Allowed", "Send up to 10 GB"]
+    },
+    "Master": {
+      "value": "Master",
+      "Price": "$399.99",
+      "Benefits": ["2 TB Storage", "10 Users Allowed", "Send up to 20 GB"]
+    }
+  },
+  "Monthly": {
+    "Basic": {
+      "value": "Basic",
+      "Price": "$19.99",
+      "Benefits": ["500 GB Storage", "2 Users Allowed", "Send up to 3 GB"]
+    },
+    "Professional": {
+      "value": "Professional",
+      "Price": "$24.99",
+      "Benefits": ["1 TB Storage", "5 Users Allowed", "Send up to 10 GB"]
+    },
+    "Master": {
+      "value": "Master",
+      "Price": "$39.99",
+      "Benefits": ["2 TB Storage", "10 Users Allowed", "Send up to 20 GB"]
+    }
+  }
+}
